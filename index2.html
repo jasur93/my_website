@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main2.css">
+    <title id="product-form">Product Add</title>
+</head>
+<body>
+    <header>
+        <div class="lefet-header">
+            <h1>Product add</h1>
+        </div>
+
+        <div class="right-header">
+            <button class="save-product">Save</button>
+            <button class="cancel">Cancel</button>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <form action="index2.html" method="post" id="product_form">
+                <label for="SKU">SKU:</label>
+                <input type="text"><br><br>
+                <label for="name">Name:</label>
+                <input type="text"><br><br>
+                <label for="price">Price ($)</label>
+                <input type="text"><br><br>
+                <!-- labeling for type switcher -->
+                <label for="type-switcher">Type Swither:</label>
+                <select id="productType" name="Product">
+                <option value="dvd">DVD</option>
+                <option value="book">Book</option>
+                <option value="furniture">Furniture</option>
+                </select>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>ScandiWeb Test - 2022</p>
+    </footer>  
+</body>
+</html>
+
